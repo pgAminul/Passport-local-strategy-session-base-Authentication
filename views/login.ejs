@@ -1,0 +1,12 @@
+<%- include("layout/header") %>
+
+    <h2>Welcome to Login page</h2>
+    <main>
+        <form action="/login" method="post">
+            <input type="email" name="useremail" placeholder="Your Email Here" required>
+            <input type="password" name="password" placeholder="Write Your Password" required>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <%- include("layout/footer") %>

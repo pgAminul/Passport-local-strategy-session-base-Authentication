@@ -1,0 +1,15 @@
+<!-- access the ejs formet from views/ layout  -->
+
+<%- include("layout/header") %>
+
+    <h2>Welcome to register page</h2>
+    <main>
+        <form action="/register" method="post">
+            <input type="text" name="username" placeholder="Your Name Here">
+            <input type="email" name="useremail" placeholder="Your Email Here">
+            <input type="password" name="password" placeholder="Write Your Password">
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <%- include("layout/footer") %>
